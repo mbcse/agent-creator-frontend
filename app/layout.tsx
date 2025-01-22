@@ -4,8 +4,8 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'AI Explorer - AI Powered Blockchain Exploration',
-  description: 'AI-powered blockchain explorer for detailed transaction analysis',
+  title: 'AgenticFleek - Create Agents in Secs',
+  description: 'AgenticFleek is a platform that allows you to create agents in seconds.',
 };
 
 export default function RootLayout({
