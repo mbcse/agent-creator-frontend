@@ -27,7 +27,7 @@ const ElizaChat = () => {
 
   const { messages, input, handleInputChange, handleSubmit, isLoading, error, reload, stop } = useChat({
     streamProtocol: 'text',
-    api: 'http://localhost:3002/characterFile'
+    api: 'https://agent-generator-api.onrender.com/characterFile'
   });
 
   const extractJsonAndMessage = (content) => {
